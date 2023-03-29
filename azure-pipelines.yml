@@ -2,9 +2,8 @@ trigger:
 - '*'
 
 pool:
-  name: 'MyAgentPool'
-  demands:
-  - npm
+  vmImage: 'ubuntu-20.04'
+container: containerregistrymarchandward.azurecr.io/containerjob:latest
 
 variables:
   buildConfiguration: 'Release'
