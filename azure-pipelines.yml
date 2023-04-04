@@ -1,7 +1,8 @@
 trigger:
 - '*'
 
-pool: VMSS
+pool:
+  - vmImage: 'Ubuntu-latest'
 
 variables:
   buildConfiguration: 'Release'
