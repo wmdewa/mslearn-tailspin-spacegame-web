@@ -1,9 +1,7 @@
 trigger:
 - '*'
 
-pool:
-  vmImage: 'ubuntu-20.04'
-container: containerregistrymarchandward.azurecr.io/containerjob:latest
+pool: VMSS
 
 variables:
   buildConfiguration: 'Release'
