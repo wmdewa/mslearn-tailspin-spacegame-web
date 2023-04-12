@@ -1,7 +1,7 @@
 trigger:
 - '*'
 
-pool: Default
+pool: ScaleSetMicrosoftImage
 
 variables:
   buildConfiguration: 'Release'
