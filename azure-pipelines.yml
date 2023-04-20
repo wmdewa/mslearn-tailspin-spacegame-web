@@ -1,7 +1,7 @@
 trigger:
 - '*'
 
-pool: ScaleSetMicrosoftImage
+pool: Windows2019ScaleSet
 
 variables:
   buildConfiguration: 'Release'
